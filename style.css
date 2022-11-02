@@ -32,6 +32,7 @@
     justify-content: space-between;
 }
 
+
 .items{
     font-weight: 600;
     font-size: 14px;
@@ -44,6 +45,18 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+.text-item:hover{
+    color: #AA3781;
+    cursor: pointer;
+ }
+
+
+ .text-item:focus{
+   text-decoration: underline #AA3781;
+ } 
+
 
 .main{
    max-width: 648px;
@@ -85,12 +98,27 @@
 }
 
 
+.button:hover{
+    color: #38E48C;;
+    cursor: pointer;
+}
+
+.button:focus{
+    color: #38E48C;
+    outline: 2px solid #38E48C;
+    cursor: pointer;
+}
+
 .button-text{
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.button-text:focus{
+    color: #38E48C;
 }
 
 
