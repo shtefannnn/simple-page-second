@@ -53,8 +53,8 @@
  }
 
 
- .text-item:focus{
-   text-decoration: underline #AA3781;
+ .text-item:active{
+    border-bottom: 1px solid #AA3781 ;
  } 
 
 
