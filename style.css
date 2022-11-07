@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.img{
+    background-image: url(logo/BG.svg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    padding: 30px 140px;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.items{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #111827;
+    max-width: 324px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.text-item:hover{
+    color: #AA3781;
+    cursor: pointer;
+ }
+
+
+ .text-item:active{
+    border-bottom: 1px solid #AA3781 ;
+ } 
+
+
+.main{
+   max-width: 648px;
+   margin: 148px 140px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 72px;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+
+.subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 600px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.button{
+    background-color: #000000;
+    border-radius: 8px;
+    border: none;
+    margin: 0;
+    padding: 16px 24px;
+    margin-right: 40px;
+}
+
+
+.button:hover{
+    color: #38E48C;;
+    cursor: pointer;
+}
+
+.button:focus{
+    color: #38E48C;
+    outline: 2px solid #38E48C;
+    cursor: pointer;
+}
+
+.button-text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-text:focus{
+    color: #38E48C;
+}
+
+
+.link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 16px 24px;
+}
+
+
+.footer{
+    background-color: #000000;
+    padding: 64px 140px;
+}
+
+
+.text-footer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+}
